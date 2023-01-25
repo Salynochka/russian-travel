@@ -1,0 +1,29 @@
+.places__text{
+    grid-area: text;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    max-width: 484px;
+}
+
+@media screen and (max-width: 1024px){
+    .places__text{
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .places__text{
+        max-width: 352px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 710px){
+    .places__text{
+        max-width: 288px;
+    }
+}

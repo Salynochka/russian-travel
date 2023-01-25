@@ -1,0 +1,9 @@
+.places__second-text{
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 780px){
+    .places__second-text{
+        margin-top: 25px;
+    }
+}

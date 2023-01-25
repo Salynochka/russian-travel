@@ -1,0 +1,24 @@
+.trains__link{
+    text-decoration: none;
+    max-width: 1184px;
+    margin: 0 0 0 auto;
+}
+
+@media screen and  (max-width: 1024px){
+    .trains__link{
+        width: 100%;
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .trains__link{
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .trains__link{
+        height: 200px;
+    }
+}

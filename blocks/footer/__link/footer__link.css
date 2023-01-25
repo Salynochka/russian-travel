@@ -1,0 +1,20 @@
+.footer__link{
+    font-family: 'Inter','Arial', 'Helvetica', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.footer__link:hover{
+    cursor: url(/images/cursor.jpg);
+}
+
+@media screen and (max-width: 710px){
+    .footer__link{
+        font-size: 24px;
+        line-height: 24px;
+    }
+}

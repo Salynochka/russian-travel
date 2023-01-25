@@ -1,0 +1,26 @@
+.trains{
+    position: relative;
+    width: 92.5%;
+    margin: 92px auto 0;
+}
+
+@media screen and  (max-width: 1024px){
+    .trains{
+        height: 640px;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .trains{
+        height: 480px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .trains{
+        height: 200px;
+    }
+}

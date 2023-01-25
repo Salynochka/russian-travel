@@ -1,0 +1,30 @@
+.lead__path{
+    position: absolute;
+    width: 95%;
+    height: 263px;
+    top: 22%;
+    left: 24px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1024px){
+    .lead__path{
+        height: 248px;
+        left: 21px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .lead__path{
+        width: 100%;
+        height: 205px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .lead__path{
+        width: 100%;
+        height: 86px;
+    }
+}

@@ -1,0 +1,25 @@
+.photo-of-Russia{
+    width: 284px;
+    height: 213px;
+}
+
+@media screen and (max-width: 1024px){
+    .photo-of-Russia{
+        width: 300px;
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .photo-of-Russia{
+        width: 352px;
+        height: 264px;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .photo-of-Russia{
+        max-width: 288px;
+        height: 216px;
+    }
+}

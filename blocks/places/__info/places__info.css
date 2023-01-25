@@ -1,0 +1,4 @@
+.places__info{
+    grid-area: link;
+    align-self: end;
+}

@@ -1,0 +1,53 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__languages/header__languages.css);
+@import url(../blocks/header/__language/header__language.css);
+@import url(../blocks/header/__language/_active/header__language_active.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__full-image/lead__full-image.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__path/lead__path.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__polka/lead__polka.css);
+
+@import url(../blocks/introduction/introduction.css);
+@import url(../blocks/introduction/__title/introduction__title.css);
+@import url(../blocks/introduction/__text/introduction__text.css);
+@import url(../blocks/introduction/__info/introduction__info.css);
+@import url(../blocks/introduction/__number/introduction__number.css);
+
+@import url(../blocks/photo-of-Russia/photo-of-Russia.css);
+
+@import url(../blocks/photos-of-Russia/photos-of-Russia.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__card/places__card.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__subtitle/places__subtitle.css);
+@import url(../blocks/places/__link/places__link.css);
+@import url(../blocks/places/__photo/places__photo.css);
+@import url(../blocks/places/__text/places__text.css);
+@import url(../blocks/places/__first-text/places__first-text.css);
+@import url(../blocks/places/__second-text/places__second-text.css);
+@import url(../blocks/places/__info/places__info.css);
+
+@import url(../blocks/trains/trains.css);
+@import url(../blocks/trains/__link/trains__link.css);
+@import url(../blocks/trains/__title/trains__title.css);
+@import url(../blocks/trains/__subtitle/trains__subtitle.css);
+@import url(../blocks/trains/__photo/trains__photo.css);
+@import url(../blocks/trains/__text/trains__text.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__row/footer__row.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__author/footer__author.css);
