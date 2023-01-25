@@ -5,13 +5,13 @@
 
 @media screen and  (max-width: 1024px){
     .places{
-        max-width: calc(1024px-96px);
+        max-width: calc(1024px - 96px);
     }
 }
 
 @media screen and (max-width: 780px){
     .places{
-        max-width: calc(780px-48px);
+        max-width: calc(780px - 48px);
     }
 }
 
