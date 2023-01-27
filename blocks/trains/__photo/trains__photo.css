@@ -1,32 +1,36 @@
 .trains__photo{
-    display: flex;
     width: 100%;
-    height: 740px;
     margin: 0 auto 0;
-    background: #2A2C2F;
-    opacity: 0.7;
-}
-
-.trains__photo:hover{
-    background: #2A2C2F;
-    opacity: 0.2;
+    background-image: url("../../../images/trains__photo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1184px;
+    min-height: 740px;
 }
 
 @media screen and (max-width: 1024px){
     .trains__photo{
-        height: 640px;
         margin-left: 0;
+        min-height: 640px;
     }
 }
 
 @media screen and (max-width: 768px){
     .trains__photo{
-        height: 480px;
+        min-height: 480px;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 600px){
     .trains__photo{
-        height: 200px;
+        min-height: 340px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .trains__photo{
+        min-height: 200px;
     }
 }

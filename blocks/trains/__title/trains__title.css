@@ -7,6 +7,7 @@
     text-align: center;
     color: #FFFFFF;
     margin: 0;
+    margin: 0 auto 0;
 }
 
 @media screen and (max-width: 768px){
@@ -15,10 +16,9 @@
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 600px){
     .trains__title{
-        width: 288px;
-        height: 70px;
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
     }

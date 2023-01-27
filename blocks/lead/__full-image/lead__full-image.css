@@ -1,3 +1,18 @@
 .lead__full-image{
-    position: relative;
+    width: 100%;
+    margin: 64px auto 0;
+    object-fit: contain;
+    object-position: center;
+}
+
+@media screen and (max-width: 1024px){
+    .lead__full-image{
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .lead__full-image{
+        margin-top: 40px;
+    }
 }

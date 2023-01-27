@@ -2,3 +2,9 @@
     grid-area: link;
     align-self: end;
 }
+
+@media screen and (max-width: 710px){
+    .places__info{
+        margin-top: 32px;
+    }
+}

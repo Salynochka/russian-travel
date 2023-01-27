@@ -1,0 +1,13 @@
+.places__paragraph{
+    margin: 0;
+}
+
+.places__paragraph:last-child{
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 780px){
+    .places__paragraph:last-child{
+        margin-top: 25px;
+    }
+}

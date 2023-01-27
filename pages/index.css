@@ -13,20 +13,18 @@
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__full-image/lead__full-image.css);
-@import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__path/lead__path.css);
-@import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__polka/lead__polka.css);
 
 @import url(../blocks/introduction/introduction.css);
 @import url(../blocks/introduction/__title/introduction__title.css);
 @import url(../blocks/introduction/__text/introduction__text.css);
 @import url(../blocks/introduction/__info/introduction__info.css);
+@import url(../blocks/introduction/__info-line/introduction__info-line.css);
 @import url(../blocks/introduction/__number/introduction__number.css);
 
-@import url(../blocks/photo-of-Russia/photo-of-Russia.css);
+@import url(../blocks/photo-of-Russia/photo-of-russia.css);
 
-@import url(../blocks/photos-of-Russia/photos-of-Russia.css);
+@import url(../blocks/photos-of-Russia/photos-of-russia.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__card/places__card.css);
@@ -35,8 +33,7 @@
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__photo/places__photo.css);
 @import url(../blocks/places/__text/places__text.css);
-@import url(../blocks/places/__first-text/places__first-text.css);
-@import url(../blocks/places/__second-text/places__second-text.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css);
 @import url(../blocks/places/__info/places__info.css);
 
 @import url(../blocks/trains/trains.css);

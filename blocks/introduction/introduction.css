@@ -3,4 +3,27 @@
     max-width: 984px;
     margin: auto;
     margin-top: 92px;
+    margin-left: 148px;
+}
+
+@media screen and  (max-width: 1024px){
+    .introduction{
+        margin-left: 48px;
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .introduction{
+        margin-top: 88px;
+        margin-left: 24px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .introduction{
+        margin-top: 64px;
+        margin-left: 16px;
+    }
 }

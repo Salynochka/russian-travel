@@ -6,12 +6,17 @@
     "name link"
     "photo text";
     column-gap: 40px;
-    margin: 0 auto 0;
+    margin-top: 80px;
+    margin-left: auto;
+}
+
+.places__card:first-child{
+    margin-top: 92px;
 }
 
 @media screen and (max-width: 1024px){
     .places__card{
-        width: 90%;
+        max-width: 928px;
         grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
         grid-template-rows: repeat(auto-fit, minmax(66px, 1fr));
         column-gap: 32px;
@@ -23,7 +28,12 @@
         grid-template-columns: minmax(320px, 340px) minmax(320px, 352px);
         grid-template-rows: repeat(auto-fit, minmax(46px, 1fr));
         column-gap: 28px;
-        width: 95%;
+        max-width: 732px;
+        margin-top: 73px;
+    }
+
+    .places__card:first-child{
+        margin-top: 88px;
     }
 }
 
@@ -38,5 +48,10 @@
         "photo"
         "text";
         width: 100%;
+        margin-top: 50px;
+    }
+
+    .places__card:first-child{
+        margin-top: 64px;
     }
 }

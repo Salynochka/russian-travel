@@ -1,6 +1,5 @@
 .places__link{
-    width: 456px;
-    height: 22px;
+    max-width: 456px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -11,4 +10,5 @@
 
 .places__link:hover{
     cursor: url(/images/cursor.jpg);
+    opacity: 0.8;
 }

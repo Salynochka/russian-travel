@@ -1,6 +1,5 @@
 .trains__subtitle{
     max-width: 360px;
-    height: 66px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -16,12 +15,11 @@
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 600px){
     .trains__subtitle{
         font-size: 14px;
         line-height: 16px;
-        width: 288px;
-        height: 48px;
+        max-width: 288px;
         margin: 16px auto 0;
     }
 }
