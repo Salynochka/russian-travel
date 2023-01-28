@@ -8,7 +8,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 920px){
     .lead__polka{
         margin-left: 24px;
     }

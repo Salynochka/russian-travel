@@ -6,5 +6,6 @@
 @media screen and (max-width: 710px){
     .places__info{
         margin-top: 32px;
+        margin-left: 16px;
     }
 }
